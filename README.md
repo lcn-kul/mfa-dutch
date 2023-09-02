@@ -28,7 +28,7 @@ mfa train_g2p --clean -j 16 dutch_cv ~/Documents/MFA/btamm/g2p/dutch_cv.zip
 # mfa train_g2p --clean --phonetisaurus -j 16 dutch_cv ~/Documents/MFA/btamm/g2p/dutch_cv_phonetisaurus.zip --alignment_separator "°"
 ```
 
-The arg --alignment_separator "°" avoids the following error:
+The arg --alignment_separator "°" avoids the following error, I haven't tested if it works properly though...
 
 ```
 The symbol ";" is reserved for "alignment_separator", but is found in the graphemes or phonemes of your dictionary.
